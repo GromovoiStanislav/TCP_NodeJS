@@ -18,7 +18,7 @@ client.on('data', (data) => {
   client.end();
 });
 
-socket.on('error', () => {
+client.on('error', () => {
   console.log('Connection closed');
 });
 
