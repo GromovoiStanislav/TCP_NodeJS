@@ -11,7 +11,7 @@ client.connect(4000, 'localhost', () => {
 });
 
 client.on('data', (data) => {
-  // const receivedData = data.toString();
+  // const receivedData = data.toString('utf-8');
   //console.log(`Received data from server: ${receivedData}`);
 
   console.log('Received data from server:', data.toString('utf-8'));
