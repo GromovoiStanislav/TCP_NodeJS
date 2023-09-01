@@ -4,7 +4,7 @@ const server = net.createServer((socket) => {
   console.log('Client connected');
 
   socket.on('data', (data) => {
-    console.log(JSON.parse(data.toString())); //'utf-8'
+    console.log(JSON.parse(data.toString()));
   });
 
   socket.on('end', () => {
