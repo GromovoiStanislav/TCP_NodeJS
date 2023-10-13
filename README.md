@@ -5,3 +5,4 @@
 - 2 - TCP with Express example (JS)
 - 3 - TCP simple example (JS)
 - 4 - Example of file transfer with TCP (JS)
+- 5 - TCP chat example (JS)
