@@ -6,3 +6,4 @@
 - 3 - TCP simple example (JS)
 - 4 - Example of file transfer with TCP (JS)
 - 5 - TCP chat example (JS)
+- 6 - TCP uploader files (JS)
